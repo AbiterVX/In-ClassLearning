@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>MainWindow.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Initial</servlet-name>
+    <servlet-class>ServeltS.Initial</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadUser</servlet-name>
+    <servlet-class>ServeltS.LoadUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllBook</servlet-name>
+    <servlet-class>ServeltS.GetAllBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuitCount</servlet-name>
+    <servlet-class>ServeltS.QuitCount</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Initial</servlet-name>
+    <url-pattern>/Initial</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllBook</servlet-name>
+    <url-pattern>/GetAllBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadUser</servlet-name>
+    <url-pattern>/LoadUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuitCount</servlet-name>
+    <url-pattern>/quit</url-pattern>
+  </servlet-mapping>
+</web-app>
