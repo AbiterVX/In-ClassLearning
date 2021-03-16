@@ -1,4 +1,4 @@
-# CourseLearning
+# CourseLearning 2016.9 - 2020.6
 本科课内实习/课程设计 作业<br>
 （1）大二上：数据结构<br>
 （2）大二下：Java程序设计，算法，计算机网络<br>
