@@ -1,0 +1,18 @@
+{
+  "HdfsAddress": "hdfs://localhost:7000",
+  "TextClassName": ["CANA","AUSTR","BRAZ"],
+  "InputFilePath": ["/NBCorpus/Country/CANA","/NBCorpus/Country/AUSTR","/NBCorpus/Country/BRAZ"],
+  "OutputPath": {
+    "TempPath": "TempPath",
+    "TrainingFiles": "TrainingFileNames",
+    "TestingFiles": "TestingFileNames",
+    "TrainingWordCount": "TrainingWordCount",
+    "TrainingSum": "TrainingSum",
+    "TrainingSumCount": "TrainingSumCount",
+    "TestingResult": "TestingResult",
+    "TestingTempResult": "TestingTempResult",
+    "TestingEvaluation": "TestingEvaluation"
+  },
+  "DirPath": "/Classification_Job1/"
+}
+
